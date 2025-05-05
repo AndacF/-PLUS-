@@ -1,2 +1,2 @@
-# -PLUS-
+# ++PLUS: Sağlık verileri ile değerlendirme sonucu üretme
 Bu proje, hasta sağlık verilerini (isim, ateş, nabız, tansiyon, not) alan ve Llama modeli kullanarak değerlendirme yapan bir REST API'sidir. Python Flask servisi, Llama modelini çalıştırarak hasta verilerine yanıt üretir. Java Spring Boot ile geliştirilen API, /chat endpoint'i üzerinden verileri alır ve modelden gelen yanıtı JSON formatında döndürür. Postman ile test edilerek hasta verilerinin değerlendirilmesi sağlanır.
